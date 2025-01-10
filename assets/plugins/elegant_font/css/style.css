@@ -1074,7 +1074,13 @@ you can use the generic selector below, but it's slower:
 	content: "\fc01";
 }
 .icon_puzzle_alt:before {
-	content: "\fc01";
+    content: "";
+    display: inline-block;
+    width: 24px;  /* Adjust the size as needed */
+    height: 24px; /* Adjust the size as needed */
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zY2hlbWEuZGF0YSIgYmlnPSIyNCIgaGVpZ2h0PSIyNCIgd2lkdGg9IjI0Ij4gPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAxMiAxMiAxMnMxMy4zNyAxMCAyNS4zMSA5LjEgOC42OC04LjY2TDguMzg0OCA5Ljg1OC0xNi40OCA5Ljg1OCAzOC4xMy44MiA4YzUtNiAzLjMzOC0wLjQyYzIuMyBhM3V1bC1wZTl1YXCxoIBMzoD2eIW');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .icon_like_alt:before {
 	content: "\e0dd";
