@@ -1074,7 +1074,7 @@ you can use the generic selector below, but it's slower:
 	content: "\fc01";
 }
 .icon_puzzle_alt:before {
-	content: "\f6ff";
+	content: "\fc01";
 }
 .icon_like_alt:before {
 	content: "\e0dd";
